@@ -1,17 +1,22 @@
-.1_27 { 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .1_27 { 
 	overflow:hidden;
-}.iphone_11_pro___x___1 { 
+}
+.viewport { 
 	background-color:rgba(255, 255, 255, 1);
 	width:377px;
 	height:1027px;
 	position:absolute;
-}.whale { 
+}
+.whale { 
 	width:375px;
 	height:254px;
 	position:absolute;
 	left:1px;
 	top:20px;
-}.image_2 { 
+}
+.image_2 { 
 	width:375px;
 	height:254px;
 	position:absolute;
@@ -20,14 +25,16 @@
 	background-image:url(images/image_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.frame_4 { 
+}
+.frame_4 { 
 	background-color:rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 1);
 	width:375px;
 	height:36px;
 	position:absolute;
 	left:1px;
 	top:284px;
-}.moby_dick { 
+}
+.moby_dick { 
 	color:rgba(255, 255, 255, 1);
 	width:144px;
 	height:36px;
@@ -39,14 +46,16 @@
 	font-size:24px;
 	letter-spacing:0;
 	line-height:px;
-}.body_text_component { 
+}
+.body_text_component { 
 	background-color:rgba(255, 255, 255, 1);
 	width:317px;
 	height:677px;
 	position:absolute;
 	left:1px;
 	top:330px;
-}.call_me_ishmael__some_years_ago_never_mind_how_long_precisely_having_little_or_no_money_in_my_purse__and_nothing_particular_to_interest_me_on_shore__i_thought_i_would_sail_about_a_little_and_see_the_watery_part_of_the_world__it_is_a_way_i_have_of_driving_off_the_spleen_and_regulating_the_circulation__whenever_i_find_myself_growing_grim_about_the_mouth__whenever_it_is_a_damp__drizzly_november_in_my_soul__whenever_i_find_myself_involuntarily_pausing_before_coffin_warehouses__and_bringing_up_the_rear_of_every_funeral_i_meet__and_especially_whenever_my_hypos_get_such_an_upper_hand_of_me__that_it_requires_a_strong_moral_principle_to_prevent_me_from_deliberately_stepping_into_the_street__and_methodically_knocking_people_s_hats_off_then__i_account_it_high_time_to_get_to_sea_as_soon_as_i_can__this_is_my_substitute_for_pistol_and_ball__with_a_philosophical_flourish_cato_throws_himself_upon_his_sword__i_quietly_take_to_the_ship__there_is_nothing_surprising_in_this__if_they_but_knew_it__almost_all_men_in_their_degree__some_time_or_other__cherish_very_nearly_the_same_feelings_towards_the_ocean_with_me__there_now_is_your_insular_city_of_the_manhattoes__belted_round_by_wharves_as_indian_isles_by_coral_reefs_commerce_surrounds_it_with_her_surf__right_and_left__the_streets_take_you_waterward__its_extreme_downtown_is_the_battery__where_that_noble_mole_is_washed_by_waves__and_cooled_by_breezes__which_a_few_hours_previous_were_out_of_sight_of_land__look_at_the_crowds_of_water_gazers_there__circumambulate_the_city_of_a_dreamy_sabbath_afternoon__go_from_corlears_hook_to_coenties_slip__and_from_thence__by_whitehall__northward__what_do_you_see__posted_like_silent_sentinels_all_around_the_town__stand_thousands_upon_thousands_of_mortal_men_fixed_in_ocean_reveries__some_leaning_against_the_spiles__some_seated_upon_the_pier_heads__some_looking_over_the_bulwarks_of_ships_from_china__some_high_aloft_in_the_rigging__as_if_striving_to_get_a_still_better_seaward_peep__but_these_are_all_landsmen__of_week_days_pent_up_in_lath_and_plaster_tied_to_counters__nailed_to_benches__clinched_to_desks__how_then_is_this__are_the_green_fields_gone__what_do_they_here_ { 
+}
+.bodytext{
 	color:rgba(0, 0, 0, 1);
 	width:297px;
 	height:677px;
@@ -58,4 +67,82 @@
 	font-size:16px;
 	letter-spacing:0;
 	line-height:px;
-}
+}  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .1_26 { 
+	overflow:hidden;
+}
+.viewport { 
+	background-color:rgba(255, 255, 255, 1);
+	width:834px;
+	height:1194px;
+	position:absolute;
+}
+.whale { 
+	width:324px;
+	height:283px;
+	position:absolute;
+	left:459px;
+	top:71px;
+}
+.image_2 { 
+	width:324px;
+	height:283px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/image_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.body_text_instance { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:667px;
+	position:absolute;
+	left:20px;
+	top:475px;
+}
+.bodytext { 
+	color:rgba(0, 0, 0, 1);
+	width:794px;
+	height:667px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:EB Garamond;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+	line-height:px;
+}
+.frame_4 { 
+	background-color:rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 1);
+	width:375px;
+	height:36px;
+	position:absolute;
+	left:69px;
+	top:156px;
+}
+.moby_dick { 
+	color:rgba(255, 255, 255, 1);
+	width:144px;
+	height:36px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+	line-height:px;
+}
+
+}
+
+
+
+
